@@ -1,0 +1,117 @@
+@font-face {
+    font-family: archivo;
+    src: url(../fonts/Archivo/Archivo-Bold.ttf);
+}
+
+@font-face {
+    font-family: archivo;
+    src: url(../fonts/Archivo/Archivo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.archivo {
+    font-family: archivo;
+}
+
+:root {
+    --bs-navy: #1A2A36;
+    --bs-whit: #ffffff;
+    --bs-grey: #666666;
+    --bs-blu: #323b56;
+    --bs-gre: #18b356;
+    --bs--bg: #f5f5f5;
+    --bs--lig: #b3ef32;
+    --bs--lgry: #c4bdbd;
+    --bs--drkb: #231f2c;
+}
+
+.drkb {
+    background: var(--bs--drkb) !important;
+}
+
+.lgry {
+    color: var(--bs--lgry) !important;
+}
+
+.mons {
+    font-family: Montserrat;
+}
+
+.back {
+    background: var(--bs--bg) !important;
+}
+
+.lig {
+    color: var(--bs--lig) !important;
+}
+
+.blu {
+    background: var(--bs-blu) !important;
+}
+
+.bg-blu {
+    background: var(--bs-blu) !important;
+}
+
+.gre {
+    color: var(--bs-gre) !important;
+}
+
+.bg-gre {
+    background: var(--bs-gre) !important;
+}
+
+.bg-wht {
+    background: var(--bs-whit) !important;
+}
+
+.wht {
+    color: var(--bs-whit) !important;
+}
+
+.gry {
+    color: var(--bs-grey) !important;
+}
+
+.bg-img {
+    background: url(../images/background.jpg) cover;
+    background-repeat: no-repeat;
+    background: fixed;
+    width: 100%;
+    height: auto;
+}
+
+.ln-ht {
+    line-height: 45px;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.ims {
+    width: 90%;
+}
+
+.ims2 {
+    width: 100%;
+}
+
+.hvr1:hover {
+    color: #18b356;
+    transition: 0.6s;
+}
+
+.active {
+    color: #18b356 !important;
+}
